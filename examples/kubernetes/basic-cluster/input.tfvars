@@ -1,0 +1,2 @@
+prefix = "fas"
+location = "centralus" 
