@@ -6,11 +6,10 @@
 trigger:
 - main
 
-pool:akspool
-
+pool: akspool
 steps:
 - task: TerraformCLI@0
-  displayName: Terr-init
+  displayName: Terraform init
   inputs:
     command: 'init'
     allowTelemetryCollection: true
